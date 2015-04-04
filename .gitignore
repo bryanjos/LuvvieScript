@@ -25,3 +25,5 @@ include/
 src/
 priv/node_modules
 priv/rebar_plugins
+test/passing
+.rebar

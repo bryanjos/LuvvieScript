@@ -104,7 +104,7 @@
         FileRoot = Dir ++ filename:rootname(filename:basename(File)),
         FileIn   = FileRoot ++ ".js_ast2",
         FileOut  = FileRoot ++ ".json",
-        PP       = "priv/json-prettyprinter/prettyjson.py",
+        PP       = "priv/json-prettyprinter/prettyjson.js",
         [] = os:cmd("cat " ++ FileIn ++ " | " ++ PP ++ " > " ++ FileOut),
         ok.
 
